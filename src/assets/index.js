@@ -4,6 +4,8 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import netclone from "./netflixclone.png"
+import link from "./wlink.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -20,13 +22,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs3 from "./tech/nextjs3.webp";
+import graphQL from "./tech/graphQL.png";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import henry from "./company/henry.png";
+import key from "./company/key.png";
+import netflix from "./company/netflix.png";
 
-import carrent from "./carrent.png";
+import mecanu from "./mecanu.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -53,10 +57,14 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
+  henry,
+  key,
+  netflix,
+  mecanu,
   jobit,
+  nextjs3,
+  link,
   tripguide,
+  graphQL,
+  netclone,
 };

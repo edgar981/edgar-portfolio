@@ -1,11 +1,13 @@
 
 import {
-    mobile,
+    // mobile,
+    netclone,
     backend,
     creator,
     web,
     javascript,
-    typescript,
+    nextjs3,
+    // typescript,
     html,
     css,
     reactjs,
@@ -14,16 +16,16 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
+    // figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
+    key,
+    henry,
+    netflix,
+    mecanu,
     jobit,
     tripguide,
     threejs,
+    graphQL,
 } from "../assets";
 
 export const navLinks = [
@@ -43,19 +45,19 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Frontend Developer",
         icon: web,
     },
-    {
-        title: "React Developer",
-        icon: mobile,
-    },
+    // {
+    //     title: "React Developer",
+    //     icon: mobile,
+    // },
     {
         title: "Backend Developer",
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Knowledge-seeking",
         icon: creator,
     },
 ];
@@ -73,10 +75,10 @@ const technologies = [
         name: "JavaScript",
         icon: javascript,
     },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
+    // {
+    //     name: "TypeScript",
+    //     icon: typescript,
+    // },
     {
         name: "React JS",
         icon: reactjs,
@@ -105,67 +107,60 @@ const technologies = [
         name: "git",
         icon: git,
     },
-    {
-        name: "figma",
-        icon: figma,
-    },
+    // {
+    //     name: "figma",
+    //     icon: figma,
+    // },
     {
         name: "docker",
         icon: docker,
+    },
+    {
+        name: "next",
+        icon: nextjs3,
+    },
+    {
+        name: "graphQL",
+        icon: graphQL,
     },
 ];
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Full Stack Developer",
+        company_name: "Mecanu",
+        icon: key,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Feb 2023 - May 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
+            "Hands on web API's such as MercadoPago, Whatsapp Business, Google Calendar",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Full Stack Developer",
+        company_name: "Henry",
+        icon: henry,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "Dic 2022 - Jan 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Developing a full web application using React.js, Redux, Node.js and other related technologies.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Working with external Spoonacular API, and implementing some UI/UX concepts",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Full Stack Developer",
+        company_name: "Freelance",
+        icon: netflix,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "May 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing a full web application using Next.js, Hasura and other related technologies.",
+            "Hands on web API's such as Youtube API, GraphQL architecture.",
+            "Working with JWT authentication, Magic auth and deploying the web application on Vercel.",
         ],
     },
 ];
@@ -199,16 +194,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Mecanu",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based platform that allows users to search, book, and manage car fixing services, providing a convenient and efficient solution for your vehicle needs.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "node",
                 color: "green-text-gradient",
             },
             {
@@ -216,29 +211,31 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: mecanu,
+        source_code_link: "https://github.com/Mecanu-com",
+        extra_link: "https://www.linkedin.com/posts/edgarnabo_hola-estoy-muy-feliz-de-anunciar-que-acabo-ugcPost-7061838170237071360-m2fs?utm_source=share&utm_medium=member_desktop",
     },
     {
-        name: "Job IT",
+        name: "Netflix clone",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Web application that stream videos from different categories and allow you to like and dislike them, storing these data in a db",
         tags: [
             {
-                name: "react",
+                name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "graphQL",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "hasura",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: netclone,
+        source_code_link: "https://github.com/edgar981/Netflix-clone",
+        extra_link: "https://netflix-clone-three-ruby.vercel.app/login"
     },
     {
         name: "Trip Guide",

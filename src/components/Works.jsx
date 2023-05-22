@@ -1,13 +1,13 @@
 import {Tilt} from "react-tilt";
 import {motion} from "framer-motion";
 import {styles} from "../style.js";
-import {github} from '../assets';
+import {link, github} from '../assets';
 import {SectionWrapper} from '../hoc';
 import {projects} from "../constants/index.js";
 import {fadeIn, textVariant} from "../utils/motion.js";
 import React from "react";
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
+const ProjectCard = ({index, name, description, tags, image, source_code_link, extra_link}) => {
   return (
       <motion.div variants={fadeIn('up', 'string', index*0.5, 0.75)}>
         <Tilt options={{max: 45, scale: 1, speed: 450}}
@@ -19,6 +19,10 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
                   className={'black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'}>
                 <img src={github} alt={'github'} className={'w-1/2 h1/2 object-contain'}/>
               </div>
+                <div onClick={() => window.open(extra_link, '_blank')}
+                     className={'ml-2 black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'}>
+                    <img src={link} alt={'github'} className={'w-1/2 h1/2 object-contain'}/>
+                </div>
             </div>
           </div>
           <div className={'mt-5'}>

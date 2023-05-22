@@ -31,7 +31,7 @@ const About = () => {
       <motion.p variant={fadeIn('', '', 0.1, 1)} className={'mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'}>
         I'm a Full Stack Web Developer and Electronic Engineer
         👨🏾‍💻 I’m currently working on web development technologies like React, Next.js, Node.js.
-        📚 I’m currently learning everything about Frontend and Backend technologies 😅
+        📚 I love learning everything about Frontend and Backend technologies 😅
         💪🏾 Future Goals: Learn more technologies - Create new projects.
         💭 Fun fact: I love working out, cooking different recipes and watching old western movies.
         I'm a quick learner and collaborate closely with clients to create efficient, scalable,
