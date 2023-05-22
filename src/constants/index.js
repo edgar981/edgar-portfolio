@@ -1,6 +1,7 @@
 
 import {
     // mobile,
+    pifood,
     netclone,
     backend,
     creator,
@@ -22,8 +23,6 @@ import {
     henry,
     netflix,
     mecanu,
-    jobit,
-    tripguide,
     threejs,
     graphQL,
 } from "../assets";
@@ -218,7 +217,7 @@ const projects = [
     {
         name: "Netflix clone",
         description:
-            "Web application that stream videos from different categories and allow you to like and dislike them, storing these data in a db",
+            "Web application that stream videos from different categories and allow you to like and dislike them, storing these data in a database.",
         tags: [
             {
                 name: "nextjs",
@@ -238,25 +237,25 @@ const projects = [
         extra_link: "https://netflix-clone-three-ruby.vercel.app/login"
     },
     {
-        name: "Trip Guide",
+        name: "Food recipes",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A responsive web application that provides you with some recipes and sort them by health score, and diet type. Also allow you create your own recipe.",
         tags: [
             {
-                name: "nextjs",
+                name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "redux",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "node",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: pifood,
+        source_code_link: "https://github.com/edgar981/PI-Food/tree/main",
     },
 ];
 

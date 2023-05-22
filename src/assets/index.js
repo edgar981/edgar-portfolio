@@ -5,6 +5,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import netclone from "./netflixclone.png"
+import pifood from "./PIfood.png"
 import link from "./wlink.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -67,4 +68,5 @@ export {
   tripguide,
   graphQL,
   netclone,
+  pifood,
 };
