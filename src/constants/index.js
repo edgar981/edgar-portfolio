@@ -246,7 +246,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "redux",
+                name: "sequelize",
                 color: "green-text-gradient",
             },
             {
@@ -256,6 +256,7 @@ const projects = [
         ],
         image: pifood,
         source_code_link: "https://github.com/edgar981/PI-Food/tree/main",
+        extra_link: "https://drive.google.com/file/d/15Zfd4nchBvi-Hut5PuC8foXDTp1niCZj/view?usp=sharing",
     },
 ];
 
